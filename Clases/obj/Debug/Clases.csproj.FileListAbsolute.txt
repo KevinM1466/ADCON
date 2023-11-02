@@ -1,0 +1,14 @@
+D:\noram\Documents\Angie\BIT_ADCON\Clases\bin\Debug\Clases.dll
+D:\noram\Documents\Angie\BIT_ADCON\Clases\bin\Debug\Clases.pdb
+D:\noram\Documents\Angie\BIT_ADCON\Clases\bin\Debug\Domain.dll
+D:\noram\Documents\Angie\BIT_ADCON\Clases\bin\Debug\Guna.UI2.dll
+D:\noram\Documents\Angie\BIT_ADCON\Clases\bin\Debug\DataAccess.dll
+D:\noram\Documents\Angie\BIT_ADCON\Clases\bin\Debug\Common.dll
+D:\noram\Documents\Angie\BIT_ADCON\Clases\bin\Debug\Domain.pdb
+D:\noram\Documents\Angie\BIT_ADCON\Clases\bin\Debug\DataAccess.pdb
+D:\noram\Documents\Angie\BIT_ADCON\Clases\bin\Debug\Common.pdb
+D:\noram\Documents\Angie\BIT_ADCON\Clases\obj\Debug\Clases.csproj.AssemblyReference.cache
+D:\noram\Documents\Angie\BIT_ADCON\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+D:\noram\Documents\Angie\BIT_ADCON\Clases\obj\Debug\Clases.csproj.CopyComplete
+D:\noram\Documents\Angie\BIT_ADCON\Clases\obj\Debug\Clases.dll
+D:\noram\Documents\Angie\BIT_ADCON\Clases\obj\Debug\Clases.pdb

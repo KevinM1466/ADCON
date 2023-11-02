@@ -1,0 +1,10 @@
+D:\noram\Documents\Angie\BIT_ADCON\DataAccess\bin\Debug\DataAccess.dll
+D:\noram\Documents\Angie\BIT_ADCON\DataAccess\bin\Debug\DataAccess.pdb
+D:\noram\Documents\Angie\BIT_ADCON\DataAccess\bin\Debug\Common.dll
+D:\noram\Documents\Angie\BIT_ADCON\DataAccess\bin\Debug\Guna.UI2.dll
+D:\noram\Documents\Angie\BIT_ADCON\DataAccess\bin\Debug\Common.pdb
+D:\noram\Documents\Angie\BIT_ADCON\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\noram\Documents\Angie\BIT_ADCON\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\noram\Documents\Angie\BIT_ADCON\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+D:\noram\Documents\Angie\BIT_ADCON\DataAccess\obj\Debug\DataAccess.dll
+D:\noram\Documents\Angie\BIT_ADCON\DataAccess\obj\Debug\DataAccess.pdb

@@ -1,0 +1,6 @@
+D:\noram\Documents\Angie\BIT_ADCON\Common\bin\Debug\Common.dll
+D:\noram\Documents\Angie\BIT_ADCON\Common\bin\Debug\Common.pdb
+D:\noram\Documents\Angie\BIT_ADCON\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\noram\Documents\Angie\BIT_ADCON\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\noram\Documents\Angie\BIT_ADCON\Common\obj\Debug\Common.dll
+D:\noram\Documents\Angie\BIT_ADCON\Common\obj\Debug\Common.pdb

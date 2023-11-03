@@ -11,13 +11,11 @@ using Domain.CrudsD;
 
 using Guna.UI2.WinForms;
 
-namespace Clases
-{
-    public class MetodosListados
-    {
+namespace Clases {
+    public class MetodosListados {
         //Mostrar en DataGrids
         Font prFont = new Font( "Poppins", 12, FontStyle.Bold );
-        
+
         public void MostrarClientes( DataGridView dgDatos ) {
             ClientesD objeto = new ClientesD();
             dgDatos.DataSource = objeto.Mostrar();
@@ -69,6 +67,16 @@ namespace Clases
             //dgDatos.Columns[ 2 ].HeaderCell.Style.Font = prFont;
             //dgDatos.Columns[ 3 ].HeaderCell.Style.Font = prFont;
             //dgDatos.Columns[ 4 ].HeaderCell.Style.Font = prFont;
+        }
+
+        public void MostrarCiudades( DataGridView dgDatos ) {
+            PaisesD objeto = new PaisesD();
+            dgDatos.DataSource = objeto.MostrarCiudades();
+            dgDatos.Columns[ 0 ].HeaderText = "Codigo";
+            dgDatos.Columns[ 1 ].HeaderText = "Ciudad";
+            dgDatos.Columns[ 3 ].HeaderText = "Pais";
+
+            dgDatos.Columns[ 2 ].Visible = false;
         }
 
         public void MostrarUsuariosClientes( DataGridView dgDatos ) {
@@ -157,8 +165,8 @@ namespace Clases
             dgDatos.Columns[ 5 ].HeaderText = "Direccion";
             dgDatos.Columns[ 6 ].HeaderText = "Correo";
 
-            dgDatos.Columns[0].Visible = false;
-            dgDatos.Columns[3].Visible = false;
+            dgDatos.Columns[ 0 ].Visible = false;
+            dgDatos.Columns[ 3 ].Visible = false;
 
             //dgDatos.Columns[ 1 ].HeaderCell.Style.Font = prFont;
             //dgDatos.Columns[ 2 ].HeaderCell.Style.Font = prFont;
@@ -166,33 +174,21 @@ namespace Clases
             //dgDatos.Columns[ 4 ].HeaderCell.Style.Font = prFont;
         }
 
-        public void MostrarContratos( DataGridView dgDatos ) {
+        public void MostrarContratos( DataGridView dgDatos) {
             ContratosD objeto = new ContratosD();
             dgDatos.DataSource = objeto.Mostrar();
-            dgDatos.Columns[ 0 ].HeaderText = "Contrato#";
-            dgDatos.Columns[ 1 ].HeaderText = "Fecha de Elaboración";
-            dgDatos.Columns[ 2 ].HeaderText = "Fecha de Incio";
-            dgDatos.Columns[ 3 ].HeaderText = "Fecha Final";
-            dgDatos.Columns[ 5 ].HeaderText = "Moneda";
-            dgDatos.Columns[ 7 ].HeaderText = "Cliente";
-            dgDatos.Columns[ 9 ].HeaderText = "Empleado";
-            dgDatos.Columns[ 10 ].HeaderText = "Facturación";
-            dgDatos.Columns[ 11 ].HeaderText = "N° de Cuotas";
-            dgDatos.Columns[ 12 ].HeaderText = "Comentarios";
-            dgDatos.Columns[ 13 ].HeaderText = "Renovación Auto";
-            dgDatos.Columns[ 16 ].HeaderText = "Producto";
-            dgDatos.Columns[ 17 ].HeaderText = "Cantidad";
-            dgDatos.Columns[ 18 ].HeaderText = "Impuesto";
-            dgDatos.Columns[ 19 ].HeaderText = "Descuento";
-            dgDatos.Columns[ 20 ].HeaderText = "Precio";
-            dgDatos.Columns[ 21 ].HeaderText = "Subtotal";
+            dgDatos.Columns[ 0 ].HeaderText = "id";
+            dgDatos.Columns[ 1 ].HeaderText = "Producto";
+            dgDatos.Columns[ 2 ].HeaderText = "Cantidad";
+            dgDatos.Columns[ 3 ].HeaderText = "Precio";
+            dgDatos.Columns[ 4 ].HeaderText = "Comentarios";
+            dgDatos.Columns[ 5 ].HeaderText = "Impuesto";
+            dgDatos.Columns[ 6 ].HeaderText = "Descuento";
+            dgDatos.Columns[ 7 ].HeaderText = "Subtotal";
 
-            dgDatos.Columns[ 4 ].Visible = false;
+            dgDatos.Columns[ 0 ].Visible = false;
+            dgDatos.Columns[ 5 ].Visible = false;
             dgDatos.Columns[ 6 ].Visible = false;
-            dgDatos.Columns[ 8 ].Visible = false;
-            dgDatos.Columns[ 10 ].Visible = false;
-            dgDatos.Columns[ 14 ].Visible = false;
-            dgDatos.Columns[ 15 ].Visible = false;
 
             //dgDatos.Columns[ 1 ].HeaderCell.Style.Font = prFont;
             //dgDatos.Columns[ 2 ].HeaderCell.Style.Font = prFont;
@@ -208,13 +204,6 @@ namespace Clases
             cmbDatos.ValueMember = "Pais_ID";
         }
 
-        public void ListarContratos( Guna2ComboBox cmbDatos ) {
-            //ContratosD objeto = new ContratosD();
-            //cmbDatos.DataSource = objeto.Mostrar();
-            //cmbDatos.DisplayMember = "Contrato_Id";
-            //cmbDatos.ValueMember = "Contrato_Id";
-        }
-
         public void ListarCiudades( Guna2ComboBox cmbDatos, int pais ) {
             ComboBoxD objeto = new ComboBoxD();
             cmbDatos.DataSource = objeto.ListarCiudades( pais );
@@ -228,19 +217,26 @@ namespace Clases
             cmbDatos.DisplayMember = "Nombre_Cargo";
             cmbDatos.ValueMember = "Cargo_Id";
         }
-        
+
         public void ListarTipoU( Guna2ComboBox cmbDatos ) {
             ComboBoxD objeto = new ComboBoxD();
             cmbDatos.DataSource = objeto.ListarTipoU();
             cmbDatos.DisplayMember = "Nivel_Usuario";
             cmbDatos.ValueMember = "Tipo_Usuario_Id";
         }
-        
+
         public void ListarMonedas( Guna2ComboBox cmbDatos ) {
             ComboBoxD objeto = new ComboBoxD();
             cmbDatos.DataSource = objeto.ListarMonedas();
             cmbDatos.DisplayMember = "Nombre_Moneda";
             cmbDatos.ValueMember = "Codigo_Moneda";
+        }
+
+        public void ListarContratos( Guna2ComboBox cmbDatos ) {
+            ComboBoxD objeto = new ComboBoxD();
+            cmbDatos.DataSource = objeto.ListarContratos();
+            cmbDatos.DisplayMember = "Contrato_Id";
+            cmbDatos.ValueMember = "Contrato_Id";
         }
     }
 }

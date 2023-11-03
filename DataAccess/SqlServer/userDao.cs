@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Common;
+using Common.cache;
+using Guna.UI2.WinForms;
 
 namespace DataAccess.SqlServer {
     public class userDao : ConnectionToSql {
@@ -36,6 +38,20 @@ namespace DataAccess.SqlServer {
                         return true;
                     } else return false;
                 }
+            }
+        }
+
+        public void Permisos( Guna2Button contratos, Guna2Button productos, Guna2Button compania, Guna2Button reportes ) {
+            if ( UserLoginCache.nivelUsuario == Cargos.Administrador ) {
+                contratos.Visible = true;
+                productos.Visible = true;
+                compania.Visible = true;
+                reportes.Visible = true;
+            } else {
+                contratos.Visible = true;
+                productos.Visible = false;
+                compania.Visible = false;
+                reportes.Visible = false;
             }
         }
     }

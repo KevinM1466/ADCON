@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 using DataAccess.Cruds;
 using DataAccess.CrudsDA;
+using DataAccess.SqlServer;
 
 namespace Domain.CrudsD {
     public class ContratosD {
@@ -16,6 +17,10 @@ namespace Domain.CrudsD {
             DataTable tabla = new DataTable();
             tabla = contratos.Mostrar();
             return tabla;
+        }
+
+        public bool MostrarDatos( string contrato ) {
+            return contratos.MostrarDatos( contrato );
         }
 
         public DataTable Insertar(string contratoID, DateTime fechaInicio, DateTime fechaFinal, string moneda, string estado, int cliente, int empleado, string tipoFacturacion, int cantidadCuotas, string comentarios, bool renovacion ) {

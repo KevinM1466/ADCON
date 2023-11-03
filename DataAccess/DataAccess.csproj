@@ -39,6 +39,7 @@
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -61,6 +62,7 @@
     <Compile Include="CrudsDA\UsuariosDA.cs" />
     <Compile Include="SqlServer\ConnectionToSql.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServer\FiltrosDao.cs" />
     <Compile Include="SqlServer\userDao.cs" />
   </ItemGroup>
   <ItemGroup>

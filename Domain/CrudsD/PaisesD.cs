@@ -35,5 +35,30 @@ namespace Domain.CrudsD {
             tabla = paises.Eliminar( codigo );
             return tabla;
         }
+
+        //Ciudades
+        public DataTable MostrarCiudades() {
+            DataTable tabla = new DataTable();
+            tabla = paises.MostrarCiudades();
+            return tabla;
+        }
+
+        public DataTable InsertarCiudades( string ciudad, int pais ) {
+            DataTable tabla = new DataTable();
+            tabla = paises.InsertarCiudades( ciudad, pais );
+            return tabla;
+        }
+
+        public DataTable ActualizarCiudades( int codigo, string ciudad, int pais ) {
+            DataTable tabla = new DataTable();
+            tabla = paises.ActualizarCiudades( codigo, ciudad, pais );
+            return tabla;
+        }
+
+        public DataTable EliminarCiudades( int codigo ) {
+            DataTable tabla = new DataTable();
+            tabla = paises.EliminarCiudades( codigo );
+            return tabla;
+        }
     }
 }

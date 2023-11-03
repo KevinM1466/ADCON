@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cache\Cargos.cs" />
+    <Compile Include="cache\ContratosCache.cs" />
     <Compile Include="cache\UserLoginCache.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

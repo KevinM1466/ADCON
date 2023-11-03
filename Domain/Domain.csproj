@@ -60,6 +60,7 @@
     <Compile Include="CrudsD\userModel.cs" />
     <Compile Include="CrudsD\UsuariosClientesD.cs" />
     <Compile Include="CrudsD\UsuariosD.cs" />
+    <Compile Include="FilterModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

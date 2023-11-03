@@ -54,11 +54,30 @@
     <Reference Include="Guna.UI2, Version=2.0.4.5, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.5\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -70,6 +89,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BIT_ADCONDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BIT_ADCONDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BIT_ADCONDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BIT_ADCONDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Conjunto1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Conjunto1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Compañia\frmMenuCompania.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +152,12 @@
     <Compile Include="Forms\Login\frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Login\frmRecoveryPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login\frmRecoveryPass.Designer.cs">
+      <DependentUpon>frmRecoveryPass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Productos\frmMenuProductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +178,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\Forms\frmReporte1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Forms\frmReporte1.Designer.cs">
+      <DependentUpon>frmReporte1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Forms\frmReporte2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Forms\frmReporte2.Designer.cs">
+      <DependentUpon>frmReporte2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="Forms\Compañia\frmEmpleados.resx">
       <DependentUpon>frmEmpleados.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,6 +215,9 @@
     <EmbeddedResource Include="Forms\Login\frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login\frmRecoveryPass.resx">
+      <DependentUpon>frmRecoveryPass.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Productos\frmMenuProductos.resx">
       <DependentUpon>frmMenuProductos.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +236,48 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reportes\Forms\frmReporte1.resx">
+      <DependentUpon>frmReporte1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Forms\frmReporte2.resx">
+      <DependentUpon>frmReporte2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Informes\Report1.rdlc" />
+    <EmbeddedResource Include="Reportes\Informes\Report2.rdlc" />
+    <EmbeddedResource Include="Reportes\Informes\Report3.rdlc" />
+    <None Include="BIT_ADCONDataSet.xsc">
+      <DependentUpon>BIT_ADCONDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BIT_ADCONDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BIT_ADCONDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BIT_ADCONDataSet.xss">
+      <DependentUpon>BIT_ADCONDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BIT_ADCONDataSet2.xsc">
+      <DependentUpon>BIT_ADCONDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BIT_ADCONDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BIT_ADCONDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BIT_ADCONDataSet2.xss">
+      <DependentUpon>BIT_ADCONDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Conjunto1.xsc">
+      <DependentUpon>Conjunto1.xsd</DependentUpon>
+    </None>
+    <None Include="Conjunto1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Conjunto1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Conjunto1.xss">
+      <DependentUpon>Conjunto1.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -213,7 +311,19 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Reportes\Forms\" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

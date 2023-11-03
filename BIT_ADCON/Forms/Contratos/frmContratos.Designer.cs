@@ -29,6 +29,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnMostrarContratos = new Guna.UI2.WinForms.Guna2Button();
             this.cmbTipo = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnBuscarCliente = new Guna.UI2.WinForms.Guna2Button();
@@ -81,10 +82,9 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.subt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnMostrarContratos = new Guna.UI2.WinForms.Guna2Button();
+            this.subt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDatos)).BeginInit();
@@ -118,6 +118,23 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1118, 359);
             this.guna2Panel1.TabIndex = 344;
+            // 
+            // btnMostrarContratos
+            // 
+            this.btnMostrarContratos.BorderRadius = 13;
+            this.btnMostrarContratos.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMostrarContratos.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMostrarContratos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMostrarContratos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMostrarContratos.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
+            this.btnMostrarContratos.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMostrarContratos.ForeColor = System.Drawing.Color.White;
+            this.btnMostrarContratos.Location = new System.Drawing.Point(967, 310);
+            this.btnMostrarContratos.Name = "btnMostrarContratos";
+            this.btnMostrarContratos.Size = new System.Drawing.Size(146, 41);
+            this.btnMostrarContratos.TabIndex = 385;
+            this.btnMostrarContratos.Text = "Ver Contratos";
+            this.btnMostrarContratos.Click += new System.EventHandler(this.btnMostrarContratos_Click);
             // 
             // cmbTipo
             // 
@@ -769,9 +786,9 @@
             this.Column3,
             this.Column5,
             this.Column6,
-            this.subt,
             this.Column4,
-            this.Column7});
+            this.Column7,
+            this.subt});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -945,12 +962,6 @@
             this.Column6.Name = "Column6";
             this.Column6.ReadOnly = true;
             // 
-            // subt
-            // 
-            this.subt.HeaderText = "SubTotal";
-            this.subt.Name = "subt";
-            this.subt.ReadOnly = true;
-            // 
             // Column4
             // 
             this.Column4.HeaderText = "Impuesto";
@@ -965,22 +976,11 @@
             this.Column7.ReadOnly = true;
             this.Column7.Visible = false;
             // 
-            // btnMostrarContratos
+            // subt
             // 
-            this.btnMostrarContratos.BorderRadius = 13;
-            this.btnMostrarContratos.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMostrarContratos.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMostrarContratos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMostrarContratos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMostrarContratos.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
-            this.btnMostrarContratos.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrarContratos.ForeColor = System.Drawing.Color.White;
-            this.btnMostrarContratos.Location = new System.Drawing.Point(967, 310);
-            this.btnMostrarContratos.Name = "btnMostrarContratos";
-            this.btnMostrarContratos.Size = new System.Drawing.Size(146, 41);
-            this.btnMostrarContratos.TabIndex = 385;
-            this.btnMostrarContratos.Text = "Ver Contratos";
-            this.btnMostrarContratos.Click += new System.EventHandler(this.btnMostrarContratos_Click);
+            this.subt.HeaderText = "SubTotal";
+            this.subt.Name = "subt";
+            this.subt.ReadOnly = true;
             // 
             // frmContratos
             // 
@@ -1055,14 +1055,6 @@
         private Guna.UI2.WinForms.Guna2Button btnQuitar;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
         public Guna.UI2.WinForms.Guna2ComboBox cmbTipo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn subt;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private Guna.UI2.WinForms.Guna2Button btnMostrarContratos;
         public Guna.UI2.WinForms.Guna2ToggleSwitch swtRenovacion;
         public Guna.UI2.WinForms.Guna2DateTimePicker dtpFechaFinal;
@@ -1074,5 +1066,13 @@
         public Guna.UI2.WinForms.Guna2HtmlLabel lblImpuesto;
         public Guna.UI2.WinForms.Guna2HtmlLabel lblDescuento;
         public Guna.UI2.WinForms.Guna2HtmlLabel lblTotal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn subt;
     }
 }

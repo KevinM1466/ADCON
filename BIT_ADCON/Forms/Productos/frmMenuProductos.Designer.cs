@@ -23,13 +23,18 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.txtVersion = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtModelo = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtProducto = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtPrecio = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtMarca = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -41,11 +46,6 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtCodigo = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtMarca = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtPrecio = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtProducto = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtModelo = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtVersion = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDatosProductos)).BeginInit();
@@ -81,11 +81,11 @@
             this.guna2TabControl1.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
             this.guna2TabControl1.TabButtonSize = new System.Drawing.Size(180, 40);
             this.guna2TabControl1.TabIndex = 2;
-            this.guna2TabControl1.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2TabControl1.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.tabPage1.Controls.Add(this.txtVersion);
             this.tabPage1.Controls.Add(this.txtModelo);
             this.tabPage1.Controls.Add(this.txtProducto);
@@ -109,6 +109,117 @@
             this.tabPage1.Size = new System.Drawing.Size(1274, 846);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Productos";
+            // 
+            // txtVersion
+            // 
+            this.txtVersion.BorderRadius = 13;
+            this.txtVersion.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtVersion.DefaultText = "";
+            this.txtVersion.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtVersion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtVersion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtVersion.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtVersion.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtVersion.Font = new System.Drawing.Font("Poppins", 12F);
+            this.txtVersion.ForeColor = System.Drawing.Color.Black;
+            this.txtVersion.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtVersion.Location = new System.Drawing.Point(321, 137);
+            this.txtVersion.Margin = new System.Windows.Forms.Padding(7, 13, 7, 13);
+            this.txtVersion.Name = "txtVersion";
+            this.txtVersion.PasswordChar = '\0';
+            this.txtVersion.PlaceholderText = "";
+            this.txtVersion.SelectedText = "";
+            this.txtVersion.Size = new System.Drawing.Size(281, 46);
+            this.txtVersion.TabIndex = 308;
+            // 
+            // txtModelo
+            // 
+            this.txtModelo.BorderRadius = 13;
+            this.txtModelo.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtModelo.DefaultText = "";
+            this.txtModelo.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtModelo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtModelo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtModelo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtModelo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtModelo.Font = new System.Drawing.Font("Poppins", 12F);
+            this.txtModelo.ForeColor = System.Drawing.Color.Black;
+            this.txtModelo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtModelo.Location = new System.Drawing.Point(15, 328);
+            this.txtModelo.Margin = new System.Windows.Forms.Padding(7, 13, 7, 13);
+            this.txtModelo.Name = "txtModelo";
+            this.txtModelo.PasswordChar = '\0';
+            this.txtModelo.PlaceholderText = "";
+            this.txtModelo.SelectedText = "";
+            this.txtModelo.Size = new System.Drawing.Size(281, 46);
+            this.txtModelo.TabIndex = 307;
+            // 
+            // txtProducto
+            // 
+            this.txtProducto.BorderRadius = 13;
+            this.txtProducto.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtProducto.DefaultText = "";
+            this.txtProducto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtProducto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtProducto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtProducto.Font = new System.Drawing.Font("Poppins", 12F);
+            this.txtProducto.ForeColor = System.Drawing.Color.Black;
+            this.txtProducto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtProducto.Location = new System.Drawing.Point(13, 137);
+            this.txtProducto.Margin = new System.Windows.Forms.Padding(7, 13, 7, 13);
+            this.txtProducto.Name = "txtProducto";
+            this.txtProducto.PasswordChar = '\0';
+            this.txtProducto.PlaceholderText = "";
+            this.txtProducto.SelectedText = "";
+            this.txtProducto.Size = new System.Drawing.Size(281, 46);
+            this.txtProducto.TabIndex = 306;
+            // 
+            // txtPrecio
+            // 
+            this.txtPrecio.BorderRadius = 13;
+            this.txtPrecio.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPrecio.DefaultText = "";
+            this.txtPrecio.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtPrecio.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtPrecio.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPrecio.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPrecio.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPrecio.Font = new System.Drawing.Font("Poppins", 12F);
+            this.txtPrecio.ForeColor = System.Drawing.Color.Black;
+            this.txtPrecio.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPrecio.Location = new System.Drawing.Point(321, 229);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(7, 13, 7, 13);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.PasswordChar = '\0';
+            this.txtPrecio.PlaceholderText = "";
+            this.txtPrecio.SelectedText = "";
+            this.txtPrecio.Size = new System.Drawing.Size(281, 46);
+            this.txtPrecio.TabIndex = 305;
+            this.txtPrecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecio_KeyPress);
+            // 
+            // txtMarca
+            // 
+            this.txtMarca.BorderRadius = 13;
+            this.txtMarca.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtMarca.DefaultText = "";
+            this.txtMarca.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtMarca.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtMarca.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtMarca.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtMarca.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtMarca.Font = new System.Drawing.Font("Poppins", 12F);
+            this.txtMarca.ForeColor = System.Drawing.Color.Black;
+            this.txtMarca.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtMarca.Location = new System.Drawing.Point(15, 229);
+            this.txtMarca.Margin = new System.Windows.Forms.Padding(7, 13, 7, 13);
+            this.txtMarca.Name = "txtMarca";
+            this.txtMarca.PasswordChar = '\0';
+            this.txtMarca.PlaceholderText = "";
+            this.txtMarca.SelectedText = "";
+            this.txtMarca.Size = new System.Drawing.Size(281, 46);
+            this.txtMarca.TabIndex = 304;
             // 
             // guna2HtmlLabel6
             // 
@@ -152,47 +263,47 @@
             this.dgDatosProductos.AllowUserToOrderColumns = true;
             this.dgDatosProductos.AllowUserToResizeColumns = false;
             this.dgDatosProductos.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.dgDatosProductos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.dgDatosProductos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgDatosProductos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dgDatosProductos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgDatosProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgDatosProductos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgDatosProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dgDatosProductos.ColumnHeadersHeight = 30;
             this.dgDatosProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(133)))), ((int)(((byte)(147)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgDatosProductos.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(133)))), ((int)(((byte)(147)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgDatosProductos.DefaultCellStyle = dataGridViewCellStyle8;
             this.dgDatosProductos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
             this.dgDatosProductos.Location = new System.Drawing.Point(15, 459);
             this.dgDatosProductos.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.dgDatosProductos.Name = "dgDatosProductos";
             this.dgDatosProductos.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgDatosProductos.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgDatosProductos.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dgDatosProductos.RowHeadersVisible = false;
             this.dgDatosProductos.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgDatosProductos.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgDatosProductos.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dgDatosProductos.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dgDatosProductos.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgDatosProductos.RowTemplate.Height = 26;
@@ -205,7 +316,7 @@
             this.dgDatosProductos.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.dgDatosProductos.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dgDatosProductos.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dgDatosProductos.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
+            this.dgDatosProductos.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.dgDatosProductos.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
             this.dgDatosProductos.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.dgDatosProductos.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -231,7 +342,7 @@
             this.btnEliminarProductos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnEliminarProductos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnEliminarProductos.Enabled = false;
-            this.btnEliminarProductos.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.btnEliminarProductos.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
             this.btnEliminarProductos.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarProductos.ForeColor = System.Drawing.Color.White;
             this.btnEliminarProductos.Location = new System.Drawing.Point(126, 402);
@@ -249,7 +360,7 @@
             this.btnGuardarProductos.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnGuardarProductos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnGuardarProductos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGuardarProductos.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.btnGuardarProductos.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
             this.btnGuardarProductos.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarProductos.ForeColor = System.Drawing.Color.White;
             this.btnGuardarProductos.Location = new System.Drawing.Point(15, 402);
@@ -339,116 +450,6 @@
             this.txtCodigo.SelectedText = "";
             this.txtCodigo.Size = new System.Drawing.Size(52, 46);
             this.txtCodigo.TabIndex = 297;
-            // 
-            // txtMarca
-            // 
-            this.txtMarca.BorderRadius = 13;
-            this.txtMarca.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtMarca.DefaultText = "";
-            this.txtMarca.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtMarca.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtMarca.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtMarca.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtMarca.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMarca.Font = new System.Drawing.Font("Poppins", 12F);
-            this.txtMarca.ForeColor = System.Drawing.Color.Black;
-            this.txtMarca.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMarca.Location = new System.Drawing.Point(15, 229);
-            this.txtMarca.Margin = new System.Windows.Forms.Padding(7, 13, 7, 13);
-            this.txtMarca.Name = "txtMarca";
-            this.txtMarca.PasswordChar = '\0';
-            this.txtMarca.PlaceholderText = "";
-            this.txtMarca.SelectedText = "";
-            this.txtMarca.Size = new System.Drawing.Size(281, 46);
-            this.txtMarca.TabIndex = 304;
-            // 
-            // txtPrecio
-            // 
-            this.txtPrecio.BorderRadius = 13;
-            this.txtPrecio.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPrecio.DefaultText = "";
-            this.txtPrecio.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtPrecio.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtPrecio.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPrecio.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPrecio.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPrecio.Font = new System.Drawing.Font("Poppins", 12F);
-            this.txtPrecio.ForeColor = System.Drawing.Color.Black;
-            this.txtPrecio.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPrecio.Location = new System.Drawing.Point(321, 229);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(7, 13, 7, 13);
-            this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.PasswordChar = '\0';
-            this.txtPrecio.PlaceholderText = "";
-            this.txtPrecio.SelectedText = "";
-            this.txtPrecio.Size = new System.Drawing.Size(281, 46);
-            this.txtPrecio.TabIndex = 305;
-            // 
-            // txtProducto
-            // 
-            this.txtProducto.BorderRadius = 13;
-            this.txtProducto.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtProducto.DefaultText = "";
-            this.txtProducto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtProducto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtProducto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtProducto.Font = new System.Drawing.Font("Poppins", 12F);
-            this.txtProducto.ForeColor = System.Drawing.Color.Black;
-            this.txtProducto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtProducto.Location = new System.Drawing.Point(13, 137);
-            this.txtProducto.Margin = new System.Windows.Forms.Padding(7, 13, 7, 13);
-            this.txtProducto.Name = "txtProducto";
-            this.txtProducto.PasswordChar = '\0';
-            this.txtProducto.PlaceholderText = "";
-            this.txtProducto.SelectedText = "";
-            this.txtProducto.Size = new System.Drawing.Size(281, 46);
-            this.txtProducto.TabIndex = 306;
-            // 
-            // txtModelo
-            // 
-            this.txtModelo.BorderRadius = 13;
-            this.txtModelo.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtModelo.DefaultText = "";
-            this.txtModelo.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtModelo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtModelo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtModelo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtModelo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtModelo.Font = new System.Drawing.Font("Poppins", 12F);
-            this.txtModelo.ForeColor = System.Drawing.Color.Black;
-            this.txtModelo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtModelo.Location = new System.Drawing.Point(15, 328);
-            this.txtModelo.Margin = new System.Windows.Forms.Padding(7, 13, 7, 13);
-            this.txtModelo.Name = "txtModelo";
-            this.txtModelo.PasswordChar = '\0';
-            this.txtModelo.PlaceholderText = "";
-            this.txtModelo.SelectedText = "";
-            this.txtModelo.Size = new System.Drawing.Size(281, 46);
-            this.txtModelo.TabIndex = 307;
-            // 
-            // txtVersion
-            // 
-            this.txtVersion.BorderRadius = 13;
-            this.txtVersion.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtVersion.DefaultText = "";
-            this.txtVersion.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtVersion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtVersion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtVersion.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtVersion.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtVersion.Font = new System.Drawing.Font("Poppins", 12F);
-            this.txtVersion.ForeColor = System.Drawing.Color.Black;
-            this.txtVersion.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtVersion.Location = new System.Drawing.Point(321, 137);
-            this.txtVersion.Margin = new System.Windows.Forms.Padding(7, 13, 7, 13);
-            this.txtVersion.Name = "txtVersion";
-            this.txtVersion.PasswordChar = '\0';
-            this.txtVersion.PlaceholderText = "";
-            this.txtVersion.SelectedText = "";
-            this.txtVersion.Size = new System.Drawing.Size(281, 46);
-            this.txtVersion.TabIndex = 308;
             // 
             // frmMenuProductos
             // 

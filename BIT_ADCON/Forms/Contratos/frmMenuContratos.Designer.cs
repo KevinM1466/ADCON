@@ -23,21 +23,21 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -78,32 +78,24 @@
             this.txtPais = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtPaisID = new Guna.UI2.WinForms.Guna2TextBox();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.dgDatosUsuarios = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.btnEliminarUsuarios = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGuardarUsuarios = new Guna.UI2.WinForms.Guna2Button();
-            this.cmbNumeroContrato = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2HtmlLabel24 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtPuestoUsuario = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel25 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtCorreoUsuario = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel26 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtTelefonoUsuario = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel27 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtDireccionUsuario = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel28 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtNombreUsuario = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel29 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel30 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtUsuarioID = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dgDatosCiudades = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.btnEliminarCiudades = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGuardarCiudad = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.cmbPaisCiudad = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtCiudades = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtCiudadID = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDatos)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDatosPaises)).BeginInit();
-            this.tabPage5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgDatosUsuarios)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgDatosCiudades)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2TabControl1
@@ -114,7 +106,7 @@
             this.guna2TabControl1.Controls.Add(this.tabPage1);
             this.guna2TabControl1.Controls.Add(this.tabPage2);
             this.guna2TabControl1.Controls.Add(this.tabPage4);
-            this.guna2TabControl1.Controls.Add(this.tabPage5);
+            this.guna2TabControl1.Controls.Add(this.tabPage3);
             this.guna2TabControl1.ItemSize = new System.Drawing.Size(180, 40);
             this.guna2TabControl1.Location = new System.Drawing.Point(0, -1);
             this.guna2TabControl1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -122,15 +114,15 @@
             this.guna2TabControl1.SelectedIndex = 0;
             this.guna2TabControl1.Size = new System.Drawing.Size(1460, 856);
             this.guna2TabControl1.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.guna2TabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
+            this.guna2TabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.guna2TabControl1.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
             this.guna2TabControl1.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
             this.guna2TabControl1.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
             this.guna2TabControl1.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
-            this.guna2TabControl1.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2TabControl1.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
             this.guna2TabControl1.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.guna2TabControl1.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.guna2TabControl1.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2TabControl1.TabButtonIdleState.ForeColor = System.Drawing.Color.White;
+            this.guna2TabControl1.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
             this.guna2TabControl1.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
             this.guna2TabControl1.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(37)))), ((int)(((byte)(49)))));
             this.guna2TabControl1.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
@@ -151,10 +143,11 @@
             this.tabPage1.Size = new System.Drawing.Size(1272, 848);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Contratos";
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.tabPage2.Controls.Add(this.dgDatos);
             this.tabPage2.Controls.Add(this.guna2HtmlLabel6);
             this.tabPage2.Controls.Add(this.cmbCiudad);
@@ -195,46 +188,46 @@
             this.dgDatos.AllowUserToOrderColumns = true;
             this.dgDatos.AllowUserToResizeColumns = false;
             this.dgDatos.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.dgDatos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.dgDatos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle36;
             this.dgDatos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dgDatos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgDatos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgDatos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle37.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle37.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgDatos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
             this.dgDatos.ColumnHeadersHeight = 30;
             this.dgDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(133)))), ((int)(((byte)(147)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgDatos.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(133)))), ((int)(((byte)(147)))));
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgDatos.DefaultCellStyle = dataGridViewCellStyle38;
             this.dgDatos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
             this.dgDatos.Location = new System.Drawing.Point(8, 411);
             this.dgDatos.Name = "dgDatos";
             this.dgDatos.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgDatos.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle39.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgDatos.RowHeadersDefaultCellStyle = dataGridViewCellStyle39;
             this.dgDatos.RowHeadersVisible = false;
             this.dgDatos.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgDatos.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgDatos.RowsDefaultCellStyle = dataGridViewCellStyle40;
             this.dgDatos.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dgDatos.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgDatos.RowTemplate.Height = 26;
@@ -247,7 +240,7 @@
             this.dgDatos.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.dgDatos.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dgDatos.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dgDatos.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
+            this.dgDatos.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.dgDatos.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
             this.dgDatos.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.dgDatos.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -322,7 +315,7 @@
             this.btnEliminar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnEliminar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnEliminar.Enabled = false;
-            this.btnEliminar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.btnEliminar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
             this.btnEliminar.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.Color.White;
             this.btnEliminar.Location = new System.Drawing.Point(116, 357);
@@ -339,7 +332,7 @@
             this.btnGuardar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnGuardar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnGuardar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGuardar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.btnGuardar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
             this.btnGuardar.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.Color.White;
             this.btnGuardar.Location = new System.Drawing.Point(9, 357);
@@ -676,7 +669,7 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.tabPage4.Controls.Add(this.guna2HtmlLabel12);
             this.tabPage4.Controls.Add(this.dgDatosPaises);
             this.tabPage4.Controls.Add(this.btnEliminarPaises);
@@ -712,46 +705,46 @@
             this.dgDatosPaises.AllowUserToOrderColumns = true;
             this.dgDatosPaises.AllowUserToResizeColumns = false;
             this.dgDatosPaises.AllowUserToResizeRows = false;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.dgDatosPaises.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.dgDatosPaises.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle41;
             this.dgDatosPaises.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dgDatosPaises.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgDatosPaises.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.dgDatosPaises.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle42.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle42.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgDatosPaises.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle42;
             this.dgDatosPaises.ColumnHeadersHeight = 30;
             this.dgDatosPaises.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(133)))), ((int)(((byte)(147)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgDatosPaises.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            dataGridViewCellStyle43.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle43.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(133)))), ((int)(((byte)(147)))));
+            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgDatosPaises.DefaultCellStyle = dataGridViewCellStyle43;
             this.dgDatosPaises.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
             this.dgDatosPaises.Location = new System.Drawing.Point(8, 414);
             this.dgDatosPaises.Name = "dgDatosPaises";
             this.dgDatosPaises.ReadOnly = true;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgDatosPaises.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle44.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle44.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgDatosPaises.RowHeadersDefaultCellStyle = dataGridViewCellStyle44;
             this.dgDatosPaises.RowHeadersVisible = false;
             this.dgDatosPaises.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgDatosPaises.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle45.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgDatosPaises.RowsDefaultCellStyle = dataGridViewCellStyle45;
             this.dgDatosPaises.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dgDatosPaises.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgDatosPaises.RowTemplate.Height = 26;
@@ -764,7 +757,7 @@
             this.dgDatosPaises.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.dgDatosPaises.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dgDatosPaises.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dgDatosPaises.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
+            this.dgDatosPaises.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.dgDatosPaises.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
             this.dgDatosPaises.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.dgDatosPaises.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -790,7 +783,7 @@
             this.btnEliminarPaises.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnEliminarPaises.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnEliminarPaises.Enabled = false;
-            this.btnEliminarPaises.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.btnEliminarPaises.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
             this.btnEliminarPaises.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarPaises.ForeColor = System.Drawing.Color.White;
             this.btnEliminarPaises.Location = new System.Drawing.Point(116, 360);
@@ -807,7 +800,7 @@
             this.btnGuardarPais.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnGuardarPais.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnGuardarPais.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGuardarPais.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.btnGuardarPais.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
             this.btnGuardarPais.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarPais.ForeColor = System.Drawing.Color.White;
             this.btnGuardarPais.Location = new System.Drawing.Point(9, 360);
@@ -927,389 +920,247 @@
             this.txtPaisID.Size = new System.Drawing.Size(51, 41);
             this.txtPaisID.TabIndex = 310;
             // 
-            // tabPage5
+            // tabPage3
             // 
-            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
-            this.tabPage5.Controls.Add(this.dgDatosUsuarios);
-            this.tabPage5.Controls.Add(this.btnEliminarUsuarios);
-            this.tabPage5.Controls.Add(this.btnGuardarUsuarios);
-            this.tabPage5.Controls.Add(this.cmbNumeroContrato);
-            this.tabPage5.Controls.Add(this.guna2HtmlLabel24);
-            this.tabPage5.Controls.Add(this.txtPuestoUsuario);
-            this.tabPage5.Controls.Add(this.guna2HtmlLabel25);
-            this.tabPage5.Controls.Add(this.txtCorreoUsuario);
-            this.tabPage5.Controls.Add(this.guna2TextBox8);
-            this.tabPage5.Controls.Add(this.guna2HtmlLabel26);
-            this.tabPage5.Controls.Add(this.txtTelefonoUsuario);
-            this.tabPage5.Controls.Add(this.guna2HtmlLabel27);
-            this.tabPage5.Controls.Add(this.txtDireccionUsuario);
-            this.tabPage5.Controls.Add(this.guna2HtmlLabel28);
-            this.tabPage5.Controls.Add(this.txtNombreUsuario);
-            this.tabPage5.Controls.Add(this.guna2HtmlLabel29);
-            this.tabPage5.Controls.Add(this.guna2HtmlLabel30);
-            this.tabPage5.Controls.Add(this.txtUsuarioID);
-            this.tabPage5.Location = new System.Drawing.Point(184, 4);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.tabPage5.Size = new System.Drawing.Size(1272, 848);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Usuarios";
+            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.tabPage3.Controls.Add(this.dgDatosCiudades);
+            this.tabPage3.Controls.Add(this.btnEliminarCiudades);
+            this.tabPage3.Controls.Add(this.btnGuardarCiudad);
+            this.tabPage3.Controls.Add(this.guna2TextBox2);
+            this.tabPage3.Controls.Add(this.cmbPaisCiudad);
+            this.tabPage3.Controls.Add(this.txtCiudades);
+            this.tabPage3.Controls.Add(this.guna2HtmlLabel17);
+            this.tabPage3.Controls.Add(this.guna2HtmlLabel18);
+            this.tabPage3.Controls.Add(this.guna2HtmlLabel13);
+            this.tabPage3.Controls.Add(this.txtCiudadID);
+            this.tabPage3.Location = new System.Drawing.Point(184, 4);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1272, 848);
+            this.tabPage3.TabIndex = 5;
+            this.tabPage3.Text = "Ciudades";
             // 
-            // dgDatosUsuarios
+            // dgDatosCiudades
             // 
-            this.dgDatosUsuarios.AllowUserToAddRows = false;
-            this.dgDatosUsuarios.AllowUserToOrderColumns = true;
-            this.dgDatosUsuarios.AllowUserToResizeColumns = false;
-            this.dgDatosUsuarios.AllowUserToResizeRows = false;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.dgDatosUsuarios.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
-            this.dgDatosUsuarios.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dgDatosUsuarios.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgDatosUsuarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
-            this.dgDatosUsuarios.ColumnHeadersHeight = 30;
-            this.dgDatosUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(133)))), ((int)(((byte)(147)))));
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgDatosUsuarios.DefaultCellStyle = dataGridViewCellStyle13;
-            this.dgDatosUsuarios.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.dgDatosUsuarios.Location = new System.Drawing.Point(8, 414);
-            this.dgDatosUsuarios.Name = "dgDatosUsuarios";
-            this.dgDatosUsuarios.ReadOnly = true;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgDatosUsuarios.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
-            this.dgDatosUsuarios.RowHeadersVisible = false;
-            this.dgDatosUsuarios.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgDatosUsuarios.RowsDefaultCellStyle = dataGridViewCellStyle15;
-            this.dgDatosUsuarios.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dgDatosUsuarios.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgDatosUsuarios.RowTemplate.Height = 26;
-            this.dgDatosUsuarios.RowTemplate.ReadOnly = true;
-            this.dgDatosUsuarios.Size = new System.Drawing.Size(1256, 422);
-            this.dgDatosUsuarios.TabIndex = 296;
-            this.dgDatosUsuarios.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt;
-            this.dgDatosUsuarios.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.dgDatosUsuarios.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.dgDatosUsuarios.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.dgDatosUsuarios.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.dgDatosUsuarios.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dgDatosUsuarios.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
-            this.dgDatosUsuarios.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.dgDatosUsuarios.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.dgDatosUsuarios.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dgDatosUsuarios.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgDatosUsuarios.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgDatosUsuarios.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dgDatosUsuarios.ThemeStyle.HeaderStyle.Height = 30;
-            this.dgDatosUsuarios.ThemeStyle.ReadOnly = true;
-            this.dgDatosUsuarios.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.dgDatosUsuarios.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgDatosUsuarios.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgDatosUsuarios.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgDatosUsuarios.ThemeStyle.RowsStyle.Height = 26;
-            this.dgDatosUsuarios.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(133)))), ((int)(((byte)(147)))));
-            this.dgDatosUsuarios.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgDatosCiudades.AllowUserToAddRows = false;
+            this.dgDatosCiudades.AllowUserToOrderColumns = true;
+            this.dgDatosCiudades.AllowUserToResizeColumns = false;
+            this.dgDatosCiudades.AllowUserToResizeRows = false;
+            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.dgDatosCiudades.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
+            this.dgDatosCiudades.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgDatosCiudades.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle32.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgDatosCiudades.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
+            this.dgDatosCiudades.ColumnHeadersHeight = 30;
+            this.dgDatosCiudades.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            dataGridViewCellStyle33.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle33.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(133)))), ((int)(((byte)(147)))));
+            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgDatosCiudades.DefaultCellStyle = dataGridViewCellStyle33;
+            this.dgDatosCiudades.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.dgDatosCiudades.Location = new System.Drawing.Point(8, 416);
+            this.dgDatosCiudades.Name = "dgDatosCiudades";
+            this.dgDatosCiudades.ReadOnly = true;
+            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle34.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle34.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle34.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgDatosCiudades.RowHeadersDefaultCellStyle = dataGridViewCellStyle34;
+            this.dgDatosCiudades.RowHeadersVisible = false;
+            this.dgDatosCiudades.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgDatosCiudades.RowsDefaultCellStyle = dataGridViewCellStyle35;
+            this.dgDatosCiudades.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dgDatosCiudades.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgDatosCiudades.RowTemplate.Height = 26;
+            this.dgDatosCiudades.RowTemplate.ReadOnly = true;
+            this.dgDatosCiudades.Size = new System.Drawing.Size(1256, 422);
+            this.dgDatosCiudades.TabIndex = 321;
+            this.dgDatosCiudades.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt;
+            this.dgDatosCiudades.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.dgDatosCiudades.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgDatosCiudades.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dgDatosCiudades.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dgDatosCiudades.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dgDatosCiudades.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.dgDatosCiudades.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.dgDatosCiudades.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.dgDatosCiudades.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgDatosCiudades.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgDatosCiudades.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgDatosCiudades.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dgDatosCiudades.ThemeStyle.HeaderStyle.Height = 30;
+            this.dgDatosCiudades.ThemeStyle.ReadOnly = true;
+            this.dgDatosCiudades.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.dgDatosCiudades.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgDatosCiudades.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgDatosCiudades.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.dgDatosCiudades.ThemeStyle.RowsStyle.Height = 26;
+            this.dgDatosCiudades.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(133)))), ((int)(((byte)(147)))));
+            this.dgDatosCiudades.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgDatosCiudades.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgDatosCiudades_CellClick_1);
             // 
-            // btnEliminarUsuarios
+            // btnEliminarCiudades
             // 
-            this.btnEliminarUsuarios.BorderRadius = 13;
-            this.btnEliminarUsuarios.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnEliminarUsuarios.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnEliminarUsuarios.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnEliminarUsuarios.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnEliminarUsuarios.Enabled = false;
-            this.btnEliminarUsuarios.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.btnEliminarUsuarios.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarUsuarios.ForeColor = System.Drawing.Color.White;
-            this.btnEliminarUsuarios.Location = new System.Drawing.Point(116, 360);
-            this.btnEliminarUsuarios.Name = "btnEliminarUsuarios";
-            this.btnEliminarUsuarios.Size = new System.Drawing.Size(101, 45);
-            this.btnEliminarUsuarios.TabIndex = 292;
-            this.btnEliminarUsuarios.Text = "Eliminar";
+            this.btnEliminarCiudades.BorderRadius = 13;
+            this.btnEliminarCiudades.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEliminarCiudades.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEliminarCiudades.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEliminarCiudades.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEliminarCiudades.Enabled = false;
+            this.btnEliminarCiudades.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
+            this.btnEliminarCiudades.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarCiudades.ForeColor = System.Drawing.Color.White;
+            this.btnEliminarCiudades.Location = new System.Drawing.Point(116, 362);
+            this.btnEliminarCiudades.Name = "btnEliminarCiudades";
+            this.btnEliminarCiudades.Size = new System.Drawing.Size(101, 45);
+            this.btnEliminarCiudades.TabIndex = 320;
+            this.btnEliminarCiudades.Text = "Eliminar";
+            this.btnEliminarCiudades.Click += new System.EventHandler(this.btnEliminarCiudades_Click);
             // 
-            // btnGuardarUsuarios
+            // btnGuardarCiudad
             // 
-            this.btnGuardarUsuarios.BorderRadius = 13;
-            this.btnGuardarUsuarios.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGuardarUsuarios.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGuardarUsuarios.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGuardarUsuarios.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGuardarUsuarios.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.btnGuardarUsuarios.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarUsuarios.ForeColor = System.Drawing.Color.White;
-            this.btnGuardarUsuarios.Location = new System.Drawing.Point(9, 360);
-            this.btnGuardarUsuarios.Name = "btnGuardarUsuarios";
-            this.btnGuardarUsuarios.Size = new System.Drawing.Size(101, 45);
-            this.btnGuardarUsuarios.TabIndex = 291;
-            this.btnGuardarUsuarios.Text = "Guardar";
+            this.btnGuardarCiudad.BorderRadius = 13;
+            this.btnGuardarCiudad.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardarCiudad.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardarCiudad.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGuardarCiudad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGuardarCiudad.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
+            this.btnGuardarCiudad.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarCiudad.ForeColor = System.Drawing.Color.White;
+            this.btnGuardarCiudad.Location = new System.Drawing.Point(9, 362);
+            this.btnGuardarCiudad.Name = "btnGuardarCiudad";
+            this.btnGuardarCiudad.Size = new System.Drawing.Size(101, 45);
+            this.btnGuardarCiudad.TabIndex = 319;
+            this.btnGuardarCiudad.Text = "Guardar";
+            this.btnGuardarCiudad.Click += new System.EventHandler(this.btnGuardarCiudad_Click);
             // 
-            // cmbNumeroContrato
+            // guna2TextBox2
             // 
-            this.cmbNumeroContrato.BackColor = System.Drawing.Color.Transparent;
-            this.cmbNumeroContrato.BorderRadius = 13;
-            this.cmbNumeroContrato.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbNumeroContrato.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbNumeroContrato.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbNumeroContrato.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbNumeroContrato.Font = new System.Drawing.Font("Poppins", 12F);
-            this.cmbNumeroContrato.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cmbNumeroContrato.ItemHeight = 30;
-            this.cmbNumeroContrato.Location = new System.Drawing.Point(256, 296);
-            this.cmbNumeroContrato.Name = "cmbNumeroContrato";
-            this.cmbNumeroContrato.Size = new System.Drawing.Size(228, 36);
-            this.cmbNumeroContrato.TabIndex = 288;
+            this.guna2TextBox2.BorderRadius = 13;
+            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox2.DefaultText = "";
+            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.Font = new System.Drawing.Font("Poppins", 12F);
+            this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.Location = new System.Drawing.Point(224, 362);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.guna2TextBox2.Name = "guna2TextBox2";
+            this.guna2TextBox2.PasswordChar = '\0';
+            this.guna2TextBox2.PlaceholderText = "Buscar...";
+            this.guna2TextBox2.SelectedText = "";
+            this.guna2TextBox2.Size = new System.Drawing.Size(260, 45);
+            this.guna2TextBox2.TabIndex = 318;
             // 
-            // guna2HtmlLabel24
+            // cmbPaisCiudad
             // 
-            this.guna2HtmlLabel24.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel24.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel24.ForeColor = System.Drawing.Color.Gainsboro;
-            this.guna2HtmlLabel24.Location = new System.Drawing.Point(256, 174);
-            this.guna2HtmlLabel24.Name = "guna2HtmlLabel24";
-            this.guna2HtmlLabel24.Size = new System.Drawing.Size(56, 30);
-            this.guna2HtmlLabel24.TabIndex = 285;
-            this.guna2HtmlLabel24.Text = "Puesto";
+            this.cmbPaisCiudad.BackColor = System.Drawing.Color.Transparent;
+            this.cmbPaisCiudad.BorderRadius = 13;
+            this.cmbPaisCiudad.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbPaisCiudad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPaisCiudad.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbPaisCiudad.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbPaisCiudad.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbPaisCiudad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbPaisCiudad.ItemHeight = 30;
+            this.cmbPaisCiudad.Location = new System.Drawing.Point(9, 118);
+            this.cmbPaisCiudad.Name = "cmbPaisCiudad";
+            this.cmbPaisCiudad.Size = new System.Drawing.Size(197, 36);
+            this.cmbPaisCiudad.TabIndex = 317;
             // 
-            // txtPuestoUsuario
+            // txtCiudades
             // 
-            this.txtPuestoUsuario.BorderRadius = 13;
-            this.txtPuestoUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPuestoUsuario.DefaultText = "";
-            this.txtPuestoUsuario.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtPuestoUsuario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtPuestoUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPuestoUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPuestoUsuario.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPuestoUsuario.Font = new System.Drawing.Font("Poppins", 12F);
-            this.txtPuestoUsuario.ForeColor = System.Drawing.Color.Black;
-            this.txtPuestoUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPuestoUsuario.Location = new System.Drawing.Point(256, 207);
-            this.txtPuestoUsuario.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.txtPuestoUsuario.Name = "txtPuestoUsuario";
-            this.txtPuestoUsuario.PasswordChar = '\0';
-            this.txtPuestoUsuario.PlaceholderText = "";
-            this.txtPuestoUsuario.SelectedText = "";
-            this.txtPuestoUsuario.Size = new System.Drawing.Size(228, 41);
-            this.txtPuestoUsuario.TabIndex = 284;
+            this.txtCiudades.BorderRadius = 13;
+            this.txtCiudades.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtCiudades.DefaultText = "";
+            this.txtCiudades.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtCiudades.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtCiudades.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtCiudades.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtCiudades.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCiudades.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtCiudades.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCiudades.Location = new System.Drawing.Point(6, 205);
+            this.txtCiudades.Name = "txtCiudades";
+            this.txtCiudades.PasswordChar = '\0';
+            this.txtCiudades.PlaceholderText = "";
+            this.txtCiudades.SelectedText = "";
+            this.txtCiudades.Size = new System.Drawing.Size(200, 36);
+            this.txtCiudades.TabIndex = 316;
             // 
-            // guna2HtmlLabel25
+            // guna2HtmlLabel17
             // 
-            this.guna2HtmlLabel25.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel25.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel25.ForeColor = System.Drawing.Color.Gainsboro;
-            this.guna2HtmlLabel25.Location = new System.Drawing.Point(256, 85);
-            this.guna2HtmlLabel25.Name = "guna2HtmlLabel25";
-            this.guna2HtmlLabel25.Size = new System.Drawing.Size(149, 30);
-            this.guna2HtmlLabel25.TabIndex = 283;
-            this.guna2HtmlLabel25.Text = "Correo Electrónico";
+            this.guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel17.Font = new System.Drawing.Font("Poppins", 12F);
+            this.guna2HtmlLabel17.ForeColor = System.Drawing.Color.Gainsboro;
+            this.guna2HtmlLabel17.Location = new System.Drawing.Point(6, 169);
+            this.guna2HtmlLabel17.Name = "guna2HtmlLabel17";
+            this.guna2HtmlLabel17.Size = new System.Drawing.Size(62, 30);
+            this.guna2HtmlLabel17.TabIndex = 315;
+            this.guna2HtmlLabel17.Text = "Ciudad";
             // 
-            // txtCorreoUsuario
+            // guna2HtmlLabel18
             // 
-            this.txtCorreoUsuario.BorderRadius = 13;
-            this.txtCorreoUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtCorreoUsuario.DefaultText = "";
-            this.txtCorreoUsuario.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtCorreoUsuario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtCorreoUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtCorreoUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtCorreoUsuario.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCorreoUsuario.Font = new System.Drawing.Font("Poppins", 12F);
-            this.txtCorreoUsuario.ForeColor = System.Drawing.Color.Black;
-            this.txtCorreoUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCorreoUsuario.Location = new System.Drawing.Point(256, 118);
-            this.txtCorreoUsuario.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.txtCorreoUsuario.Name = "txtCorreoUsuario";
-            this.txtCorreoUsuario.PasswordChar = '\0';
-            this.txtCorreoUsuario.PlaceholderText = "";
-            this.txtCorreoUsuario.SelectedText = "";
-            this.txtCorreoUsuario.Size = new System.Drawing.Size(228, 41);
-            this.txtCorreoUsuario.TabIndex = 282;
+            this.guna2HtmlLabel18.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel18.Font = new System.Drawing.Font("Poppins", 12F);
+            this.guna2HtmlLabel18.ForeColor = System.Drawing.Color.Gainsboro;
+            this.guna2HtmlLabel18.Location = new System.Drawing.Point(6, 82);
+            this.guna2HtmlLabel18.Name = "guna2HtmlLabel18";
+            this.guna2HtmlLabel18.Size = new System.Drawing.Size(35, 30);
+            this.guna2HtmlLabel18.TabIndex = 314;
+            this.guna2HtmlLabel18.Text = "País";
             // 
-            // guna2TextBox8
+            // guna2HtmlLabel13
             // 
-            this.guna2TextBox8.BorderRadius = 13;
-            this.guna2TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox8.DefaultText = "";
-            this.guna2TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.Font = new System.Drawing.Font("Poppins", 12F);
-            this.guna2TextBox8.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.Location = new System.Drawing.Point(224, 360);
-            this.guna2TextBox8.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.guna2TextBox8.Name = "guna2TextBox8";
-            this.guna2TextBox8.PasswordChar = '\0';
-            this.guna2TextBox8.PlaceholderText = "Buscar...";
-            this.guna2TextBox8.SelectedText = "";
-            this.guna2TextBox8.Size = new System.Drawing.Size(260, 45);
-            this.guna2TextBox8.TabIndex = 281;
+            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Poppins", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.Gainsboro;
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(6, 9);
+            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(143, 50);
+            this.guna2HtmlLabel13.TabIndex = 273;
+            this.guna2HtmlLabel13.Text = "CIUDADES";
             // 
-            // guna2HtmlLabel26
+            // txtCiudadID
             // 
-            this.guna2HtmlLabel26.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel26.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel26.ForeColor = System.Drawing.Color.Gainsboro;
-            this.guna2HtmlLabel26.Location = new System.Drawing.Point(9, 263);
-            this.guna2HtmlLabel26.Name = "guna2HtmlLabel26";
-            this.guna2HtmlLabel26.Size = new System.Drawing.Size(71, 30);
-            this.guna2HtmlLabel26.TabIndex = 280;
-            this.guna2HtmlLabel26.Text = "Teléfono";
-            // 
-            // txtTelefonoUsuario
-            // 
-            this.txtTelefonoUsuario.BorderRadius = 13;
-            this.txtTelefonoUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtTelefonoUsuario.DefaultText = "";
-            this.txtTelefonoUsuario.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtTelefonoUsuario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtTelefonoUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtTelefonoUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtTelefonoUsuario.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTelefonoUsuario.Font = new System.Drawing.Font("Poppins", 12F);
-            this.txtTelefonoUsuario.ForeColor = System.Drawing.Color.Black;
-            this.txtTelefonoUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTelefonoUsuario.Location = new System.Drawing.Point(9, 296);
-            this.txtTelefonoUsuario.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.txtTelefonoUsuario.Name = "txtTelefonoUsuario";
-            this.txtTelefonoUsuario.PasswordChar = '\0';
-            this.txtTelefonoUsuario.PlaceholderText = "";
-            this.txtTelefonoUsuario.SelectedText = "";
-            this.txtTelefonoUsuario.Size = new System.Drawing.Size(228, 41);
-            this.txtTelefonoUsuario.TabIndex = 279;
-            // 
-            // guna2HtmlLabel27
-            // 
-            this.guna2HtmlLabel27.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel27.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel27.ForeColor = System.Drawing.Color.Gainsboro;
-            this.guna2HtmlLabel27.Location = new System.Drawing.Point(9, 174);
-            this.guna2HtmlLabel27.Name = "guna2HtmlLabel27";
-            this.guna2HtmlLabel27.Size = new System.Drawing.Size(78, 30);
-            this.guna2HtmlLabel27.TabIndex = 278;
-            this.guna2HtmlLabel27.Text = "Dirección";
-            // 
-            // txtDireccionUsuario
-            // 
-            this.txtDireccionUsuario.BorderRadius = 13;
-            this.txtDireccionUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtDireccionUsuario.DefaultText = "";
-            this.txtDireccionUsuario.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtDireccionUsuario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtDireccionUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtDireccionUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtDireccionUsuario.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDireccionUsuario.Font = new System.Drawing.Font("Poppins", 12F);
-            this.txtDireccionUsuario.ForeColor = System.Drawing.Color.Black;
-            this.txtDireccionUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDireccionUsuario.Location = new System.Drawing.Point(9, 207);
-            this.txtDireccionUsuario.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.txtDireccionUsuario.Name = "txtDireccionUsuario";
-            this.txtDireccionUsuario.PasswordChar = '\0';
-            this.txtDireccionUsuario.PlaceholderText = "";
-            this.txtDireccionUsuario.SelectedText = "";
-            this.txtDireccionUsuario.Size = new System.Drawing.Size(228, 41);
-            this.txtDireccionUsuario.TabIndex = 277;
-            // 
-            // guna2HtmlLabel28
-            // 
-            this.guna2HtmlLabel28.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel28.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel28.ForeColor = System.Drawing.Color.Gainsboro;
-            this.guna2HtmlLabel28.Location = new System.Drawing.Point(9, 85);
-            this.guna2HtmlLabel28.Name = "guna2HtmlLabel28";
-            this.guna2HtmlLabel28.Size = new System.Drawing.Size(160, 30);
-            this.guna2HtmlLabel28.TabIndex = 276;
-            this.guna2HtmlLabel28.Text = "Nombre del Usuario";
-            // 
-            // txtNombreUsuario
-            // 
-            this.txtNombreUsuario.BorderRadius = 13;
-            this.txtNombreUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNombreUsuario.DefaultText = "";
-            this.txtNombreUsuario.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtNombreUsuario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtNombreUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtNombreUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtNombreUsuario.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNombreUsuario.Font = new System.Drawing.Font("Poppins", 12F);
-            this.txtNombreUsuario.ForeColor = System.Drawing.Color.Black;
-            this.txtNombreUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNombreUsuario.Location = new System.Drawing.Point(9, 118);
-            this.txtNombreUsuario.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.txtNombreUsuario.Name = "txtNombreUsuario";
-            this.txtNombreUsuario.PasswordChar = '\0';
-            this.txtNombreUsuario.PlaceholderText = "";
-            this.txtNombreUsuario.SelectedText = "";
-            this.txtNombreUsuario.Size = new System.Drawing.Size(228, 41);
-            this.txtNombreUsuario.TabIndex = 275;
-            // 
-            // guna2HtmlLabel29
-            // 
-            this.guna2HtmlLabel29.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel29.Font = new System.Drawing.Font("Poppins", 12F);
-            this.guna2HtmlLabel29.ForeColor = System.Drawing.Color.Gainsboro;
-            this.guna2HtmlLabel29.Location = new System.Drawing.Point(256, 263);
-            this.guna2HtmlLabel29.Name = "guna2HtmlLabel29";
-            this.guna2HtmlLabel29.Size = new System.Drawing.Size(166, 30);
-            this.guna2HtmlLabel29.TabIndex = 274;
-            this.guna2HtmlLabel29.Text = "Número de Contrato";
-            // 
-            // guna2HtmlLabel30
-            // 
-            this.guna2HtmlLabel30.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel30.Font = new System.Drawing.Font("Poppins", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel30.ForeColor = System.Drawing.Color.Gainsboro;
-            this.guna2HtmlLabel30.Location = new System.Drawing.Point(8, 12);
-            this.guna2HtmlLabel30.Name = "guna2HtmlLabel30";
-            this.guna2HtmlLabel30.Size = new System.Drawing.Size(142, 50);
-            this.guna2HtmlLabel30.TabIndex = 272;
-            this.guna2HtmlLabel30.Text = "USUARIOS";
-            // 
-            // txtUsuarioID
-            // 
-            this.txtUsuarioID.BorderRadius = 13;
-            this.txtUsuarioID.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtUsuarioID.DefaultText = "";
-            this.txtUsuarioID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtUsuarioID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtUsuarioID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtUsuarioID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtUsuarioID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUsuarioID.Font = new System.Drawing.Font("Poppins", 12F);
-            this.txtUsuarioID.ForeColor = System.Drawing.Color.Black;
-            this.txtUsuarioID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUsuarioID.Location = new System.Drawing.Point(9, 118);
-            this.txtUsuarioID.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.txtUsuarioID.Name = "txtUsuarioID";
-            this.txtUsuarioID.PasswordChar = '\0';
-            this.txtUsuarioID.PlaceholderText = "";
-            this.txtUsuarioID.SelectedText = "";
-            this.txtUsuarioID.Size = new System.Drawing.Size(51, 41);
-            this.txtUsuarioID.TabIndex = 297;
+            this.txtCiudadID.BorderRadius = 13;
+            this.txtCiudadID.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtCiudadID.DefaultText = "";
+            this.txtCiudadID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtCiudadID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtCiudadID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtCiudadID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtCiudadID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCiudadID.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtCiudadID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCiudadID.Location = new System.Drawing.Point(6, 205);
+            this.txtCiudadID.Name = "txtCiudadID";
+            this.txtCiudadID.PasswordChar = '\0';
+            this.txtCiudadID.PlaceholderText = "";
+            this.txtCiudadID.SelectedText = "";
+            this.txtCiudadID.Size = new System.Drawing.Size(200, 36);
+            this.txtCiudadID.TabIndex = 322;
             // 
             // frmMenuContratos
             // 
@@ -1329,9 +1180,9 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDatosPaises)).EndInit();
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgDatosUsuarios)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgDatosCiudades)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1341,7 +1192,6 @@
         private Guna.UI2.WinForms.Guna2TabControl guna2TabControl1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TabPage tabPage5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2TextBox txtCompania;
         private Guna.UI2.WinForms.Guna2Button btnEliminar;
@@ -1378,24 +1228,17 @@
         private Guna.UI2.WinForms.Guna2TextBox txtPais;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel16;
         private Guna.UI2.WinForms.Guna2TextBox txtPaisID;
-        public Guna.UI2.WinForms.Guna2DataGridView dgDatosUsuarios;
-        private Guna.UI2.WinForms.Guna2Button btnEliminarUsuarios;
-        private Guna.UI2.WinForms.Guna2Button btnGuardarUsuarios;
-        public Guna.UI2.WinForms.Guna2ComboBox cmbNumeroContrato;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel24;
-        private Guna.UI2.WinForms.Guna2TextBox txtPuestoUsuario;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel25;
-        private Guna.UI2.WinForms.Guna2TextBox txtCorreoUsuario;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox8;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel26;
-        private Guna.UI2.WinForms.Guna2TextBox txtTelefonoUsuario;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel27;
-        private Guna.UI2.WinForms.Guna2TextBox txtDireccionUsuario;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel28;
-        private Guna.UI2.WinForms.Guna2TextBox txtNombreUsuario;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel29;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel30;
-        private Guna.UI2.WinForms.Guna2TextBox txtUsuarioID;
         private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage3;
+        private Guna.UI2.WinForms.Guna2ComboBox cmbPaisCiudad;
+        private Guna.UI2.WinForms.Guna2TextBox txtCiudades;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel17;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
+        public Guna.UI2.WinForms.Guna2DataGridView dgDatosCiudades;
+        private Guna.UI2.WinForms.Guna2Button btnEliminarCiudades;
+        private Guna.UI2.WinForms.Guna2Button btnGuardarCiudad;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox txtCiudadID;
     }
 }

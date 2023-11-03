@@ -16,6 +16,7 @@ namespace BIT_ADCON.Forms.Productos {
     public partial class frmMenuProductos : Form {
         MetodosListados metodos = new MetodosListados();
         ProductosD productos = new ProductosD();
+        Validaciones validar = new Validaciones();
         bool isEdit = false;
         public frmMenuProductos() {
             InitializeComponent();
@@ -48,16 +49,20 @@ namespace BIT_ADCON.Forms.Productos {
 
         private void btnGuardarProductos_Click( object sender, EventArgs e ) {
             try {
-                if ( isEdit == false ) {
-                    productos.Insertar( txtProducto.Text, txtMarca.Text, txtModelo.Text, txtVersion.Text, decimal.Parse( txtPrecio.Text ) );
-                    MessageBox.Show( "Datos gurdados con éxito", "ADCOM", MessageBoxButtons.OK, MessageBoxIcon.Information );
-                    metodos.MostrarProductos( dgDatosProductos );
-                    Limpiar();
+                if ( txtProducto.Text != "" || txtMarca.Text != "" || txtModelo.Text != ""  || txtVersion.Text != "" || txtProducto.Text != "" ) {
+                    if ( isEdit == false ) {
+                        productos.Insertar( txtProducto.Text, txtMarca.Text, txtModelo.Text, txtVersion.Text, decimal.Parse( txtPrecio.Text ) );
+                        MessageBox.Show( "Datos gurdados con éxito", "ADCOM", MessageBoxButtons.OK, MessageBoxIcon.Information );
+                        metodos.MostrarProductos( dgDatosProductos );
+                        Limpiar();
+                    } else {
+                        productos.Actualizar( int.Parse( txtCodigo.Text ), txtProducto.Text, txtMarca.Text, txtModelo.Text, txtVersion.Text, decimal.Parse( txtPrecio.Text ) );
+                        MessageBox.Show( "Datos actualizados con éxito", "ADCOM", MessageBoxButtons.OK, MessageBoxIcon.Information );
+                        metodos.MostrarProductos( dgDatosProductos );
+                        Limpiar();
+                    }
                 } else {
-                    productos.Actualizar( int.Parse( txtCodigo.Text ), txtProducto.Text, txtMarca.Text, txtModelo.Text, txtVersion.Text, decimal.Parse( txtPrecio.Text ) );
-                    MessageBox.Show( "Datos actualizados con éxito", "ADCOM", MessageBoxButtons.OK, MessageBoxIcon.Information );
-                    metodos.MostrarProductos( dgDatosProductos );
-                    Limpiar();
+                    MessageBox.Show( "No puedes dejar los campos vacios", "ADCOM", MessageBoxButtons.OK, MessageBoxIcon.Warning );
                 }
             } catch ( Exception ex ) {
                 MessageBox.Show( ex.Message, "ADCOM", MessageBoxButtons.OK, MessageBoxIcon.Information );
@@ -78,6 +83,10 @@ namespace BIT_ADCON.Forms.Productos {
         private void dgDatosProductos_CellClick( object sender, DataGridViewCellEventArgs e ) {
             Cargar();
             isEdit = true;
+        }
+
+        private void txtPrecio_KeyPress( object sender, KeyPressEventArgs e ) {
+            validar.SoloNumeros(sender, e);
         }
     }
 }

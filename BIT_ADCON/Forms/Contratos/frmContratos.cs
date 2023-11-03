@@ -21,7 +21,7 @@ using DataAccess.CrudsDA;
 using Domain.CrudsD;
 
 namespace BIT_ADCON.Forms {
-    public partial class frmContratos : Form {
+    public partial class frmContratos : Form, varEnviarDatos {
         MetodosListados metodos = new MetodosListados();
         ContratosD contratos = new ContratosD();
         Conversor conversor = new Conversor();
@@ -132,7 +132,7 @@ namespace BIT_ADCON.Forms {
                 string sub = subTotal.ToString( "N2" );
                 double descuento = float.Parse( txtDescuento.Text );
                 double impuesto = float.Parse( txtImpuesto.Text );
-                dgDatos.Rows.Add( txtProductoID.Text, txtProducto.Text, txtCantidad.Text, txtPrecio.Text, txtComentario.Text, sub, txtImpuesto.Text, txtDescuento.Text );
+                dgDatos.Rows.Add( txtProductoID.Text, txtProducto.Text, txtCantidad.Text, txtPrecio.Text, txtComentario.Text, txtImpuesto.Text, txtDescuento.Text, sub );
                 Impuesto += impuesto;
                 SubTotales += subTotal;
                 Descuento += descuento;
@@ -147,11 +147,11 @@ namespace BIT_ADCON.Forms {
         }
 
         private void btnQuitar_Click( object sender, EventArgs e ) {
-            double subTotal = double.Parse( dgDatos.CurrentRow.Cells[ 5 ].Value.ToString() );
-            double impuesto = double.Parse( dgDatos.CurrentRow.Cells[ 6 ].Value.ToString() );
-            double descuento = double.Parse( dgDatos.CurrentRow.Cells[ 7 ].Value.ToString() );
-
             if ( dgDatos.Rows.Count > 0 ) {
+                double impuesto = double.Parse( dgDatos.CurrentRow.Cells[ 5 ].Value.ToString() );
+                double descuento = double.Parse( dgDatos.CurrentRow.Cells[ 6 ].Value.ToString() );
+                double subTotal = double.Parse( dgDatos.CurrentRow.Cells[ 7 ].Value.ToString() );
+
                 for ( int i = dgDatos.SelectedRows.Count - 1; i >= 0; i += -1 ) {
                     dgDatos.Rows.RemoveAt( dgDatos.SelectedRows[ i ].Index );
                 }
@@ -239,5 +239,22 @@ namespace BIT_ADCON.Forms {
                 //formBG.Dispose();
             }
         }
+
+        public void CargarDatos( DataGridViewRow fila ) {
+            String productoID = fila.Cells[ 0 ].Value.ToString();
+            String producto = fila.Cells[ 1 ].Value.ToString();
+            String cantidad = fila.Cells[ 2 ].Value.ToString();
+            String precio = fila.Cells[ 3 ].Value.ToString();
+            String comentario = fila.Cells[ 4 ].Value.ToString();
+            String impuesto = fila.Cells[ 5 ].Value.ToString();
+            String descuento = fila.Cells[ 6 ].Value.ToString();
+            String subtotal = fila.Cells[ 7 ].Value.ToString();
+
+            this.dgDatos.Rows.Add( new[] { productoID, producto, cantidad, precio, comentario, impuesto, descuento, subtotal});
+        }
+    }
+
+    public interface varEnviarDatos {
+        void CargarDatos( DataGridViewRow fila );
     }
 }

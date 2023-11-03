@@ -5,6 +5,8 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Common;
+using Common.cache;
 
 namespace DataAccess.CrudsDA {
     public class ContratosDA : ConnectionToSql{
@@ -38,6 +40,45 @@ namespace DataAccess.CrudsDA {
                 }
             }
             return table;
+        }
+
+        public bool MostrarDatos(string contrato) {
+            using ( var connection = GetConnection() ) {
+                connection.Open();
+                using ( var command = new SqlCommand() ) {
+                    command.Connection = connection;
+                    command.CommandText = "CRUD_CONTRATOS";
+                    command.Parameters.AddWithValue( "@contratoID", contrato );
+                    command.Parameters.AddWithValue( "@fechaInicio", null );
+                    command.Parameters.AddWithValue( "@fechaFinal", null );
+                    command.Parameters.AddWithValue( "@moneda", "" );
+                    command.Parameters.AddWithValue( "@estado", "" );
+                    command.Parameters.AddWithValue( "@cliente", 0 );
+                    command.Parameters.AddWithValue( "@empleado", 0 );
+                    command.Parameters.AddWithValue( "@tipoFacturacion", "" );
+                    command.Parameters.AddWithValue( "@cantidadCuotas", 0 );
+                    command.Parameters.AddWithValue( "@comentarios", "" );
+                    command.Parameters.AddWithValue( "@renovacion", null );
+                    command.Parameters.AddWithValue( "@accion", "MostrarDatos" );
+                    command.CommandType = CommandType.StoredProcedure;
+                    SqlDataReader reader = command.ExecuteReader();
+                    if ( reader.HasRows ) {
+                        while ( reader.Read() ) {
+                            ContratosCache.fechaIncio = reader.GetDateTime( 2 );
+                            ContratosCache.fechaFinal = reader.GetDateTime( 3 );
+                            ContratosCache.clienteID = reader.GetInt32( 6 );
+                            ContratosCache.Cliente = reader.GetString( 7 );
+                            ContratosCache.codigoMoneda = reader.GetString( 4 );
+                            ContratosCache.moneda = reader.GetString( 5 );
+                            ContratosCache.tipoF = reader.GetString( 10 );
+                            ContratosCache.cantidadCuotas = reader.GetInt32( 11 );
+                            ContratosCache.comentario = reader.GetString( 12 );
+                            ContratosCache.renovacion = reader.GetBoolean( 13 );
+                        }
+                        return true;
+                    } else return false;
+                }
+            }
         }
 
         public DataTable Insertar( string contratoID, DateTime fechaInicio, DateTime fechaFinal, string moneda, string estado, int cliente, int empleado, string tipoFacturacion, int cantidadCuotas, string comentarios, bool renovacion ) {

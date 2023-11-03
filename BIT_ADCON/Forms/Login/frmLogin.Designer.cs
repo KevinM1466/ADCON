@@ -29,6 +29,7 @@
             this.txtUsuario = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lblRecoveryPass = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,7 +74,7 @@
             this.txtUsuario.PlaceholderText = "Correo o Usuario";
             this.txtUsuario.SelectedText = "";
             this.txtUsuario.Size = new System.Drawing.Size(382, 48);
-            this.txtUsuario.TabIndex = 276;
+            this.txtUsuario.TabIndex = 1;
             // 
             // btnLogin
             // 
@@ -82,10 +83,10 @@
             this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.btnLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
             this.btnLogin.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(695, 314);
+            this.btnLogin.Location = new System.Drawing.Point(695, 298);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(303, 59);
             this.btnLogin.TabIndex = 292;
@@ -112,15 +113,30 @@
             this.txtPassword.PlaceholderText = "Contraseña";
             this.txtPassword.SelectedText = "";
             this.txtPassword.Size = new System.Drawing.Size(382, 48);
-            this.txtPassword.TabIndex = 293;
+            this.txtPassword.TabIndex = 2;
+            // 
+            // lblRecoveryPass
+            // 
+            this.lblRecoveryPass.ActiveLinkColor = System.Drawing.Color.Red;
+            this.lblRecoveryPass.AutoSize = true;
+            this.lblRecoveryPass.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecoveryPass.LinkColor = System.Drawing.Color.DarkGray;
+            this.lblRecoveryPass.Location = new System.Drawing.Point(744, 376);
+            this.lblRecoveryPass.Name = "lblRecoveryPass";
+            this.lblRecoveryPass.Size = new System.Drawing.Size(220, 28);
+            this.lblRecoveryPass.TabIndex = 294;
+            this.lblRecoveryPass.TabStop = true;
+            this.lblRecoveryPass.Text = "¿Olvidaste tu contraseña?";
+            this.lblRecoveryPass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblRecoveryPass_LinkClicked);
             // 
             // frmLogin
             // 
             this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(137)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.ClientSize = new System.Drawing.Size(1106, 455);
+            this.Controls.Add(this.lblRecoveryPass);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtUsuario);
@@ -143,5 +159,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txtUsuario;
         private Guna.UI2.WinForms.Guna2Button btnLogin;
         private Guna.UI2.WinForms.Guna2TextBox txtPassword;
+        private System.Windows.Forms.LinkLabel lblRecoveryPass;
     }
 }

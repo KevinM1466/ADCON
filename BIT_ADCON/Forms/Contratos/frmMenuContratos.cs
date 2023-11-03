@@ -39,11 +39,12 @@ namespace BIT_ADCON.Forms.Contratos {
         private void frmMenuContratos_Load( object sender, EventArgs e ) {
             cmbPais.StartIndex = 0;
             metodos.ListarPaises(cmbPais);
+            metodos.ListarPaises(cmbPaisCiudad);
             metodos.ListarCiudades( cmbCiudad, int.Parse(cmbPais.SelectedValue.ToString()) );
             metodos.MostrarClientes(dgDatos);
             //metodos.MostrarMonedas(dgDatosMonedas);
             metodos.MostrarPaises(dgDatosPaises);
-            metodos.MostrarUsuariosClientes(dgDatosUsuarios);
+            metodos.MostrarCiudades(dgDatosCiudades);
             OpenChildForm( new frmContratos() );
         }
 
@@ -91,6 +92,13 @@ namespace BIT_ADCON.Forms.Contratos {
             btnEliminarPaises.Enabled = true;
         }
 
+        private void CargarCiudades() {
+            txtCiudadID.Text = dgDatosCiudades.CurrentRow.Cells[ 0 ].Value.ToString();
+            txtCiudades.Text = dgDatosCiudades.CurrentRow.Cells[ 1 ].Value.ToString();
+            cmbPaisCiudad.Text = dgDatosCiudades.CurrentRow.Cells[ 2 ].Value.ToString();
+            btnEliminarPaises.Enabled = true;
+        }
+
         private void LimpiarClientes() {
             txtCodigo.Clear();
             txtCompania.Clear();
@@ -120,6 +128,14 @@ namespace BIT_ADCON.Forms.Contratos {
             txtPaisID.Clear();
             txtPais.Clear();
             txtISO.Clear();
+            isEdit = false;
+            btnEliminarPaises.Enabled = false;
+        }
+
+        private void LimpiarCiudades() {
+            txtCiudadID.Clear();
+            txtCiudades.Clear();
+            cmbPaisCiudad.StartIndex = 0;
             isEdit = false;
             btnEliminarPaises.Enabled = false;
         }
@@ -242,6 +258,62 @@ namespace BIT_ADCON.Forms.Contratos {
 
         private void guna2TabControl1_Click( object sender, EventArgs e ) {
             OpenChildForm( new frmContratos() );
+        }
+
+        private void tabPage1_Click( object sender, EventArgs e ) {
+
+        }
+
+        //Ciudades
+        private void btnGuardarCiudades_Click( object sender, EventArgs e ) {
+            
+        }
+
+        private void dgDatosCiudades_CellClick( object sender, DataGridViewCellEventArgs e ) {
+
+        }
+
+        private void btnEliminarCiudades_Click( object sender, EventArgs e ) {
+            try {
+                paises.EliminarCiudades( int.Parse( txtCiudadID.Text ) );
+                MessageBox.Show( "Datos eliminados con éxito", "ADCOM", MessageBoxButtons.OK, MessageBoxIcon.Information );
+                metodos. MostrarCiudades( dgDatosCiudades );
+                LimpiarCiudades();
+            } catch ( Exception ex ) {
+                MessageBox.Show( ex.Message, "ADCOM", MessageBoxButtons.OK, MessageBoxIcon.Information );
+            }
+        }
+
+        private void dgDatosCiudades_CellDoubleClick( object sender, DataGridViewCellEventArgs e ) {
+            CargarCiudades();
+            isEdit = true;
+        }
+
+        private void txtCodigoCiudad_TextChanged( object sender, EventArgs e ) {
+
+        }
+
+        private void dgDatosCiudades_CellClick_1( object sender, DataGridViewCellEventArgs e ) {
+            CargarCiudades();
+            isEdit = true;
+        }
+
+        private void btnGuardarCiudad_Click( object sender, EventArgs e ) {
+            try {
+                if ( isEdit == false ) {
+                    paises.InsertarCiudades( txtCiudades.Text, int.Parse( cmbPaisCiudad.SelectedValue.ToString() ) );
+                    MessageBox.Show( "Datos gurdados con éxito", "ADCOM", MessageBoxButtons.OK, MessageBoxIcon.Information );
+                    metodos.MostrarCiudades( dgDatosCiudades );
+                    LimpiarCiudades();
+                } else {
+                    paises.ActualizarCiudades( int.Parse( dgDatosCiudades.CurrentRow.Cells[ 0 ].Value.ToString() ), txtCiudades.Text, int.Parse( cmbPaisCiudad.SelectedValue.ToString() ) );
+                    MessageBox.Show( "Datos actualizados con éxito", "ADCOM", MessageBoxButtons.OK, MessageBoxIcon.Information );
+                    metodos.MostrarCiudades( dgDatosCiudades );
+                    LimpiarCiudades();
+                }
+            } catch ( Exception ex ) {
+                MessageBox.Show( ex.Message, "ADCOM", MessageBoxButtons.OK, MessageBoxIcon.Information );
+            }
         }
     }
 }

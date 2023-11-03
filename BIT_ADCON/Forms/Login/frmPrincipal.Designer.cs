@@ -26,6 +26,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.pnlMenu = new System.Windows.Forms.Panel();
+            this.btnCerrarSesion = new Guna.UI2.WinForms.Guna2Button();
             this.btnReportes = new Guna.UI2.WinForms.Guna2Button();
             this.btnCompañia = new Guna.UI2.WinForms.Guna2Button();
             this.btnProductos = new Guna.UI2.WinForms.Guna2Button();
@@ -36,7 +37,8 @@
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.pnlDesktop = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnCerrarSesion = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.btnSalir = new Guna.UI2.WinForms.Guna2ImageButton();
             this.pnlMenu.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -60,6 +62,23 @@
             this.pnlMenu.Name = "pnlMenu";
             this.pnlMenu.Size = new System.Drawing.Size(230, 853);
             this.pnlMenu.TabIndex = 2;
+            // 
+            // btnCerrarSesion
+            // 
+            this.btnCerrarSesion.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCerrarSesion.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCerrarSesion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCerrarSesion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCerrarSesion.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnCerrarSesion.FillColor = System.Drawing.Color.Empty;
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Poppins", 12F);
+            this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
+            this.btnCerrarSesion.Location = new System.Drawing.Point(0, 798);
+            this.btnCerrarSesion.Name = "btnCerrarSesion";
+            this.btnCerrarSesion.Size = new System.Drawing.Size(230, 55);
+            this.btnCerrarSesion.TabIndex = 24;
+            this.btnCerrarSesion.Text = "Cerrar Sesión";
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
             // btnReportes
             // 
@@ -175,6 +194,7 @@
             // pnlDesktop
             // 
             this.pnlDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(42)))), ((int)(((byte)(65)))));
+            this.pnlDesktop.Controls.Add(this.btnSalir);
             this.pnlDesktop.Controls.Add(this.pictureBox2);
             this.pnlDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlDesktop.Location = new System.Drawing.Point(230, 0);
@@ -193,22 +213,28 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // btnCerrarSesion
+            // guna2BorderlessForm1
             // 
-            this.btnCerrarSesion.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCerrarSesion.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCerrarSesion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCerrarSesion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCerrarSesion.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnCerrarSesion.FillColor = System.Drawing.Color.Empty;
-            this.btnCerrarSesion.Font = new System.Drawing.Font("Poppins", 12F);
-            this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
-            this.btnCerrarSesion.Location = new System.Drawing.Point(0, 798);
-            this.btnCerrarSesion.Name = "btnCerrarSesion";
-            this.btnCerrarSesion.Size = new System.Drawing.Size(230, 55);
-            this.btnCerrarSesion.TabIndex = 24;
-            this.btnCerrarSesion.Text = "Cerrar Sesión";
-            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
+            this.guna2BorderlessForm1.BorderRadius = 20;
+            this.guna2BorderlessForm1.ContainerControl = this;
+            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2BorderlessForm1.TransparentWhileDrag = true;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnSalir.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
+            this.btnSalir.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnSalir.ImageRotate = 0F;
+            this.btnSalir.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnSalir.IndicateFocus = true;
+            this.btnSalir.Location = new System.Drawing.Point(1413, 12);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnSalir.Size = new System.Drawing.Size(34, 37);
+            this.btnSalir.TabIndex = 2;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // frmPrincipal
             // 
@@ -218,6 +244,7 @@
             this.Controls.Add(this.pnlDesktop);
             this.Controls.Add(this.pnlMenu);
             this.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -246,6 +273,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private Guna.UI2.WinForms.Guna2Button btnReportes;
         private Guna.UI2.WinForms.Guna2Button btnCerrarSesion;
+        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+        private Guna.UI2.WinForms.Guna2ImageButton btnSalir;
     }
 }
 

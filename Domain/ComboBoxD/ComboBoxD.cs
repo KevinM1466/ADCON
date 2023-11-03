@@ -48,5 +48,11 @@ namespace Domain
             tabla = objetoCD.ListarMonedas();
             return tabla;
         }
+        
+        public DataTable ListarContratos( ) {
+            DataTable tabla = new DataTable();
+            tabla = objetoCD.ListarContratos();
+            return tabla;
+        }
     }
 }

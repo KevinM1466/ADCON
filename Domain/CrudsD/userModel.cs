@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 using DataAccess.SqlServer;
 
+using Guna.UI2.WinForms;
+
 namespace Domain.CrudsD {
     public class userModel {
         userDao userDao = new userDao();
@@ -39,6 +41,10 @@ namespace Domain.CrudsD {
 
         public bool isLoginUser( string user, string password ) {
             return userDao.Login( user, password );
+        }
+
+        public void Permisos( Guna2Button contratos, Guna2Button productos, Guna2Button compania, Guna2Button reportes ) {
+            userDao.Permisos( contratos, productos, compania, reportes );
         }
     }
 }

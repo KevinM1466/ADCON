@@ -24,9 +24,9 @@ namespace DataAccess.ComboBoxDA {
                     table.Load( leer );
                     connection.Close();
 
-                    DataRow fila = table.NewRow();
-                    fila[ "Nombre_Pais" ] = "Seleccione un Pais";
-                    table.Rows.InsertAt( fila, 0 );
+                    //DataRow fila = table.NewRow();
+                    //fila[ "Nombre_Pais" ] = "Seleccione un Pais";
+                    //table.Rows.InsertAt( fila, 0 );
 
                 }
             }
@@ -159,6 +159,28 @@ namespace DataAccess.ComboBoxDA {
 
                     //DataRow fila = table.NewRow();
                     //fila[ "Nombre_Moneda" ] = "Seleccione una opción";
+                    //table.Rows.InsertAt( fila, 0 );
+                }
+            }
+            return table;
+        }
+
+        public DataTable ListarContratos() {
+            using ( var connection = GetConnection() ) {
+                connection.Open();
+                using ( var command = new SqlCommand() ) {
+                    command.Connection = connection;
+                    command.CommandText = "MostrarComboBox";
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Clear();
+                    command.Parameters.AddWithValue( "@paisID", "" );
+                    command.Parameters.AddWithValue( "@accion", "ListarContratos" );
+                    leer = command.ExecuteReader();
+                    table.Load( leer );
+                    connection.Close();
+
+                    //DataRow fila = table.NewRow();
+                    //fila[ "Contrato_Id" ] = "Seleccione una opción";
                     //table.Rows.InsertAt( fila, 0 );
                 }
             }

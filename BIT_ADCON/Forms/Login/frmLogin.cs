@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using Domain.CrudsD;
+
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace BIT_ADCON.Forms.Login {
@@ -54,6 +55,11 @@ namespace BIT_ADCON.Forms.Login {
         public void limpiar() {
             txtUsuario.Clear();
             txtPassword.Clear();
+        }
+
+        private void lblRecoveryPass_LinkClicked( object sender, LinkLabelLinkClickedEventArgs e ) {
+            frmRecoveryPass frm = new frmRecoveryPass();
+            frm.ShowDialog();
         }
     }
 }
